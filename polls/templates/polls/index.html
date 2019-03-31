@@ -1,0 +1,40 @@
+<!--
+<!DOCTYPE html>
+<html lang="ja-jp">
+<head>
+    <meta charset="UTF-8">
+    <title>Djangoテスト1</title>
+    <title>Djangoテスト2</title>
+    <title>Djangoテスト3</title>
+</head>
+<body>
+
+    <h1>おめでとう！Djangoでの初めてのHTMLファイルです</h1>
+    {% for i in i|rjust:20 %}
+    コメント：{{forloop.counter}}
+    <button type="button" id="btn" value="aaa">tes</button>
+    <br>
+    {% endfor %}
+    
+    <a href = 'https://www.sejuku.net/blog/26477'>test</a>
+    
+</body>
+</html>
+-->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <title>書き込みフォーム</title>
+</head>
+<body>
+<h1>掲示板 - 書き込みフォーム</h1>
+<form action="" method="post">
+  <table>
+      {{form1.as_table}}
+      <tr><td colspan='2'><input type="submit" value="Submit"></td></tr>
+  </table>
+</form>
+</body>
+</html>
